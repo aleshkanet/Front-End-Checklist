@@ -6,39 +6,39 @@
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/thedaviddias/front-end-checklist)
 [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
-The **Front-End Checklist** is an exhaustive list of all elements you need to have / to test before launching your site / HTML page to production.
+**Контрольный список по фронтенду** является исчерпывающим списком всех элементов, которые вы должны иметь / проверить перед запуском вашего сайта / HTML страницы в продакшн.
 
-It is based on Front-End developers' years of experience, with the additions coming from some other open-source checklists.
+Он основан на многолетнем опыте фронтенд разработчиков, с заимствованиями из некоторых других опенсорсных чеклистов.
 
-*Help to share the Front-End Checklist by voting and recommending on Product Hunt*
+*Помоги распространить Front-End Checklist проголосовав и порекомендовав его на Product Hunt*
 [![](http://res.cloudinary.com/djnyaloac/image/upload/v1508896898/upvote-producthunt_vzys4c.jpg)](https://www.producthunt.com/posts/front-end-checklist)
 
-## Table of Contents
+## Содержание
 
 1. **[Head](#head)**
 2. **[HTML](#html)**
-3. **[Webfonts](#webfonts)**
+3. **[Веб-шрифты](#webfonts)**
 4. **[CSS](#css)**
-5. **[Images](#images)**
+5. **[Изображения](#images)**
 6. **[JavaScript](#javascript)**
-7. **[Security](#security)**
-8. **[Performance](#performance-1)**
-9. **[Accessibility](#accessibility)**
+7. **[Безопасность](#security)**
+8. **[Производительность](#performance-1)**
+9. **[Доступность](#accessibility)**
 10. **[SEO](#seo)**
 
-## How to use?
+## Как пользоваться?
 
-All items in the **Front-End Checklist** are required for the majority of the projects, but some elements can be omitted or are not essential (in the case of an administration web app, you may not need RSS feed for example). We choose to use 3 levels of flexibility:
+Для большинства проектов требуются все элементы **контрольного списка**, но некоторые элементы могут быть опущены или не быть существенными (например, в случае административного веб приложения, вам может не понадобиться лента RSS). Мы решили использовать 3 уровня для гибкости:
 
-* ![Low][low_img] means that the item is **recommended** but can be omitted in some particular situations.
-* ![Medium][medium_img] means that the item is **highly recommended** and can eventually be omitted in some really particular cases. Some elements, if omitted, can have bad repercussions in terms of performance or SEO.
-* ![High][high_img] means that the item **can't be omitted** by any reason. You may cause a dysfunction in your page or have accessibility or SEO issues. The testing priority needs to be on these elements first.
+* ![Низкий][low_img] означает, что элемент **рекомендуется** использовать, но он может быть опущен в некоторых конкретных случаях.
+* ![Средний][medium_img] означает, что элемент **настоятельно рекомендовано** использовать и он может быть опущен в по-настоящему частных случаях. Некоторые элементы, если их пропустить, могут повлечь за собой плохие последствия с точки зрения производительности или SEO.
+* ![Высокий][high_img] означает, что элемент в любом случае **не может быть опущен**. Вы можете получить некорректную работу своей страницы или проблемы с доступностью или SEO. В первую очередь приоритет тестирования должен быть на этих элементах.
 
-Some resources possess an emoticon to help you understand which type of content / help you may find on the checklist:
+У некоторых ресурсов есть иконка, которая поможет вам понять, какой тип контента / помощи вы можете найти в контрольном списке:
 
-* 📖: documentation or article
-* 🛠: online tool / testing tool
-* 📹: media or video content
+* 📖: документация или статья
+* 🛠: онлайн инструмент / инструмент тестирования
+* 📹: медиа или видео контент
 
 ---
 
